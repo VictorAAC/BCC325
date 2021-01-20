@@ -10,6 +10,9 @@ class Agent():
 class Environment:
     
     def initial_percepts(self):
+        """
+        Este metodo retorna o estado do environment
+        """
         raise NotImplementedError('initial_percepts')
 
     def signal(self,action):
