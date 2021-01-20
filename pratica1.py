@@ -8,8 +8,7 @@ class Agent():
         raise NotImplementedError('act')
 
 class Environment:
-    """
-    """
+    
     def initial_percepts(self):
         raise NotImplementedError('initial_percepts')
 
