@@ -11,9 +11,12 @@ class Environment:
     
     def initial_percepts(self):
         """
-        Este metodo retorna o estado do environment
+        Este metodo retorna o estado do environment assim que o agente entra em contato com ele
         """
         raise NotImplementedError('initial_percepts')
 
     def signal(self,action):
+        """
+        Este metodo retorna o estado do environment depois de sofrer uma açao do agente
+        """
         raise NotImplementedError('signal')
